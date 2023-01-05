@@ -86,6 +86,127 @@ nav
     width: 15px;
 }
 
+/* <!--start profile=========== --> */
+
+.profile-container{
+    position: fixed;
+    top: .7rem;
+    right: -120%;
+    width: 22rem;
+    background-color: #fffdfd;
+    z-index: 10;
+    height: 1000vh;
+    border-radius: .5rem;
+    box-shadow: 0 0 .9rem #333;
+    
+}
+
+.profile-container.active{
+    right: 4.5rem;
+}
+    
+
+
+.profile-container .profile-name{
+    width: 100%;
+    /* background-color: #fffdfd; */
+    z-index: 100;
+ }
+
+
+.profile-container .user-name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-bottom: .1rem solid #e4e2e2;
+}
+
+
+.profile-container .user-name img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.profile-container .user-name h3{
+    font-size: 1.1rem;
+    color: #444;
+    font-weight: normal;
+}
+.profile-container .user-name p{
+    color: #444;
+    padding-top: .2rem;
+}
+
+.profile-container .user-name .acount-id{
+  margin-top: .8rem;  
+}
+
+.profile-container .user-name .acount-id a{
+    color: #4545f0;
+}
+
+.profile-container .profile-deta{
+   width: 100%;
+   
+}
+
+.profile-container .profile-deta::-webkit-scrollbar{
+    width: 1rem;
+}
+
+.profile-container .profile-deta::-webkit-scrollbar-thumb{
+    background-color: #444;
+}
+
+.profile-container .profile-deta::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.profile-container .channle-name{
+    padding: .7rem 0;
+    border-bottom: .1rem solid #e4e2e2;
+}
+
+.profile-container .channle-name .box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .4rem 1.5rem;
+    cursor: pointer;
+}
+
+
+
+.profile-container .channle-name .box:hover{
+    background-color: rgb(233, 230, 230);
+}
+.profile-container .channle-name .box span{
+   height: 1.8rem;
+   width: 1.8rem;
+}
+
+.profile-container .channle-name .box .box-2 {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+ }
+
+.profile-container .channle-name .box.box-1 {
+   justify-content: space-between;
+   align-items: center;
+ }
+
+
+.profile-container .channle-name .box h3{
+    font-size: 1.1rem;
+    color: #444;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+
 /* -----------------sidebar--------------- */
 
 .sidebar{
@@ -191,7 +312,7 @@ nav
 .banner
 {
     width: 100%;
-    height: 32rem;
+    height: 27rem;
 }
 .banner img
 {

@@ -14,3 +14,11 @@ menuicon.onclick = function () {
     sidebar.classList.toggle('small-sidebar');
     container.classList.toggle('large-container')
 }
+
+
+let ditels = document.querySelector('.user-icon');
+let ditels_bar = document.querySelector(".profile-container");
+
+ditels.onclick=()=>{
+    ditels_bar.classList.toggle('active')
+}
